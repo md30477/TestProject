@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [FreeCRMUI]">
+  <listeners>
+    <listener class-name="com.qa.utils.TestListener"/>
+  </listeners>
+  <test thread-count="5" verbose="10" name="FreeCRM(failed)">
+    <classes>
+      <class name="com.qa.testcases.ContactsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="createContacts"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.testcases.ContactsTest -->
+    </classes>
+  </test> <!-- FreeCRM(failed) -->
+</suite> <!-- Failed suite [FreeCRMUI] -->

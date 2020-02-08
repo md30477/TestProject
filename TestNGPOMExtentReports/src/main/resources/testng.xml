@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FreeCRMUI" verbose="10">
+ <listeners>
+        <listener class-name="com.qa.utils.TestListener"/>
+      
+    </listeners>
+<test name="FreeCRM">
+<classes>
+<class name="com.qa.testcases.LoginTest"/>
+<class name="com.qa.testcases.ContactsTest"/>
+
+</classes>
+</test>
+</suite>
