@@ -159,5 +159,11 @@
 	<artifactId>poi</artifactId>
 	<version>3.17</version>
 </dependency>
+<!-- Repeated testng jar with latest version -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.9.10</version>
+</dependency>
   </dependencies>
 </project>

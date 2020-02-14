@@ -6,6 +6,7 @@ import java.util.List;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -23,7 +24,7 @@ import com.qa.utils.ExtentTestManager;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 //@Listeners(CustomListener.class)
-public class LoginTest extends TestBase implements ITestListener{
+public class LoginTest extends TestBase{
 	LoginPage loginpage;
 	TestBase base = new TestBase();
 	WebDriver driver; 
@@ -107,5 +108,7 @@ public class LoginTest extends TestBase implements ITestListener{
 		//extentReports.flush();
 		//driver.quit();
 	}
+
+
 
 }
