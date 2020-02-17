@@ -31,8 +31,7 @@ public class TestBase {
 	
 	public WebDriver intialization()
 	{
-		System.out.println("madviiiiiiiiiiiiiiiii"+propertyFileReader.getValue("BROWSER_NAME"));
-		
+				
 		String browserType=propertyFileReader.getValue("BROWSER_NAME");
 		String downloadFilepath = propertyFileReader.getValue("FILE_DOWNLOAD_LOC");
 		if (browserType.toLowerCase().contains("fire")) {
