@@ -31,11 +31,12 @@ public class TestBase {
 	
 	public WebDriver intialization()
 	{
-				
+		
+		//mad
 		String browserType=propertyFileReader.getValue("BROWSER_NAME");
 		String downloadFilepath = propertyFileReader.getValue("FILE_DOWNLOAD_LOC");
 		if (browserType.toLowerCase().contains("fire")) {
-			
+			FreeCRMLogger.writeToLog("Hi Before getting firefox driver");
 			FreeCRMLogger.writeToLog("Before getting firefox driver");
 			//DesiredCapabilities dc=DesiredCapabilities.firefox();
 		//	String fireFoxBrowser=propertyFileReader.getValue(FirefoxDriver.BINARY);

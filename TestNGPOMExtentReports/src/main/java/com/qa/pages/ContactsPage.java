@@ -55,7 +55,7 @@ public class ContactsPage extends TestBase{
 	{
 		//newBtn.click();
 		//Extenttest.log(LogStatus.PASS, "Click on New button");
-		lib.click(driver, contacts,Extenttest);
+		lib.click(driver, newBtn,Extenttest);
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {

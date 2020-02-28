@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="FreeCRMUI" verbose="10">
+<suite name="FreeCRMUI" verbose="10" parallel="tests" thread-count="2">
  <listeners>
         <listener class-name="com.qa.utils.TestListener"/>
       
@@ -7,7 +7,7 @@
 <test name="FreeCRM">
 <classes>
 <class name="com.qa.testcases.LoginTest"/>
-<!-- <class name="com.qa.testcases.ContactsTest"/> -->
+<class name="com.qa.testcases.ContactsTest"/>
 
 </classes>
 </test>
